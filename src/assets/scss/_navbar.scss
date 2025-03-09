@@ -1,0 +1,23 @@
+@use 'color';
+.navbar{
+    background: color.$dark-blue-color;
+    li{
+        &.nav-item{
+           
+            a{
+       
+                &.nav-link{
+                    color: #fff;
+                    padding: 10px 30px;
+                    line-height: 40px;
+                    border-right: 1px solid #a9126b;
+                   &.active{
+                    background: #a9126b;
+                    color: #ffffff;
+                   }
+                }
+            }
+        }
+    }
+   
+}

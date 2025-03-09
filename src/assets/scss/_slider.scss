@@ -1,0 +1,38 @@
+.slider {
+    height: 400px;
+    position: relative;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate (-50%,0);
+
+        &--text {
+            -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+            background: rgba(38, 50, 75, .7);
+            color: #fff;
+            padding: 15px;
+
+        }
+
+        &--more {
+
+            a {
+                color: #fff;
+                padding: 8px 20px;
+                text-decoration: none;
+                display: inline-block;
+                background-color: #ec068e;
+            }
+        }
+    }
+
+}

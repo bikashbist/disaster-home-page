@@ -1,0 +1,27 @@
+@use 'color';
+
+.banner {
+    background-color: color.$light-white-color;
+    position: relative;
+
+    img{
+        width: 100%;
+    }
+    &__details{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    &__content{
+        position: absolute;
+        left: 5%;
+      
+      
+        -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+            background: rgba(38, 50, 75, .7);
+            color: #fff;
+            padding: 30px;
+
+    }
+}

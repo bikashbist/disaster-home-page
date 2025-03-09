@@ -1,0 +1,20 @@
+@use 'color';
+.header{
+    p{
+        margin-bottom: 0px;
+    }
+    &__top{
+        background-color: color.$light-white-color;
+        
+    }
+    &__middle{
+        h3{
+            font-family: "Merriweather", serif;
+        }   
+    }
+    &__news{
+        background-color: #ec068e;
+        color: color.$light-white-color;
+       
+    }
+}

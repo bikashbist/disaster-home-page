@@ -1,0 +1,28 @@
+@use 'color';
+
+.news {
+    background-color: color.$light-white-color;
+
+    &__content {
+
+        background-color: #fff;
+        border: 1px solid #e9edf8;
+        border-bottom: 4px solid #ec068e;
+        box-shadow: 0 0 1px rgba(38, 50, 75, .06), 2px 2px 2px rgba(38, 50, 75, .05), 4px 4px 6px rgba(38, 50, 75, .05), 0 1px 0 #e0e5f5 inset;
+        ;
+
+        img {
+            width: 100%;
+        }
+
+        &--text {
+            padding: 20px;
+
+            h2 {
+                font-family: "Merriweather", serif;
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+    }
+}

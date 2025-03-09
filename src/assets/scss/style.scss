@@ -1,0 +1,89 @@
+@use 'color';
+@use 'header';
+@use 'navbar';
+@use 'slider';
+@use 'news';
+@use 'banner';
+@use 'events';
+@use 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+.btn-learn-more{
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ec068e;
+}
+.table-pink {
+    --bs-table-color: #fff;
+    --bs-table-bg: #ec068e;
+    --bs-table-border-color: #ec068e;
+    --bs-table-striped-bg: #ec068e;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #ec068e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #ec068e;
+    --bs-table-hover-color: #fff;
+    border-color: #ec068e;
+}
+.custom-pink {
+    filter: brightness(0) saturate(100%) invert(21%) sepia(89%) saturate(6841%) hue-rotate(308deg) brightness(97%) contrast(101%);
+  }
+  
+.disaster {
+    background-color: color.$light-white-color;
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #ec068e !important;
+        background-color: #ffffff !important;
+        border-left: 4px solid #ec008b !important;
+        border-radius: 0px !important;
+        h4{
+            color: #ec068e !important;
+        }
+        p{
+            color: #ec068e !important;
+        }
+    }
+    .nav-pills .nav-link {
+        width: 100%;
+        margin-bottom: 16px;
+        border-left: 4px solid #fff !important;
+        padding-left: 30px;
+    }
+    .nav-custom {
+        width: 300px !important;
+        border-right: 1px solid #e7e7e7;
+        align-items: start;
+
+        h4 {
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+            font-size: 18px;
+            font-family: "Merriweather", serif;
+            color: black;
+        }
+        p{
+           
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            margin-bottom: 0px;
+            color: black;
+        }
+    }
+}
+.section-title{
+   h1{
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 700;
+   }
+}
