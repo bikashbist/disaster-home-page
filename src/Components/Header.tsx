@@ -29,10 +29,7 @@ function Header() {
               </div>
               <div className="logo__right">
                 <div className="img d-flex align-items-center gap-3">
-                  {/* <img
-                    src="https://kathmandu.gov.np/wp-content/themes/kmc-theme/images/kmc-logo.png"
-                    alt="nepal"
-                  /> */}
+               
 
                   <img
                     width="70"

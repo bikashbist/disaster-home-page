@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Navbar /> */}
       <BrowserRouter>
       <nav className="navbar navbar-expand-lg py-0 ">
         <div className="container">
@@ -27,9 +26,7 @@ function App() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            {/* <a className="navbar-brand" href="#">
-              Hidden brand
-            </a> */}
+        
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
